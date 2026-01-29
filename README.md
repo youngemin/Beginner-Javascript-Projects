@@ -1,2 +1,15 @@
-# Beginner-Javascript-Projects
-I aim to add my beginner level js projects to this repo and learn javascript while doing them.
+# Beginner JavaScript Projects
+
+Collection of my JavaScript learning projects.
+
+## Projects
+
+### 1. [Counter App](./counter)
+A simple counter with localStorage functionality.
+- Increment/Decrement
+- Reset
+- Save/Load data
+- Prevents negative values
+
+## Technologies
+- HTML, CSS, JavaScript
