@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EAEFEF;
+  font-family: sans-serif;
+}
+
+.counter{
+  background-color: #25343F;
+  padding: 3rem 6rem 5rem;
+  text-align: center;
+  border-radius: 10px;
+  color: #BFC9D1;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.counter #count{
+  color: #FF9B51;
+}
+.counter h1{
+  text-transform: uppercase;
+}
+.counter .button-wrapepr{
+  display: flex;
+}
+.counter button{
+  font-size: 15px;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  margin: 0.5rem;
+  background-color: #BFC9D1;
+}
