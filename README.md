@@ -4,7 +4,7 @@ Collection of my JavaScript learning projects.
 
 ## Projects
 
-### 1. [Counter App](./counter)
+### 1. [Counter App](counter)
 A simple counter with localStorage functionality.
 - Increment/Decrement
 - Reset
