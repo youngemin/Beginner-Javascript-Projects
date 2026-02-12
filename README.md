@@ -10,7 +10,7 @@ A simple counter with localStorage functionality.
 - Reset
 - Save/Load data
 - Prevents negative values
-
+https://youngemin.github.io/Beginner-Javascript-Projects/Counter/
 
 ### 2. [Weather App](WeatherApp)
   A simple weather app
