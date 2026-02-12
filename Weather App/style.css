@@ -1,0 +1,176 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+*:not(dialog) {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  width: 90%;
+  max-width: 29.375rem;
+  color: #fff;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  margin: 6.25rem auto 0;
+  border-radius: 1.25rem;
+  padding: 2.5rem 2.188rem;
+  text-align: center;
+}
+
+.card > .search {
+  width: 100%;
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+}
+
+.search > input {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #555;
+  padding: 0.625rem 1.563rem;
+  height: 3.75rem;
+  border-radius: 1.875rem;
+  flex: 1;
+  font-size: 18px;
+  margin-right: 1rem;
+}
+
+.search > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  cursor: pointer;
+  border-radius: 50%;
+  width:3.75rem;
+  height: 3.75rem;
+}
+button > img{
+  width: 1rem;
+}
+
+.weather{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.weather > .weather-icon{
+  width: 10.625rem;
+  margin-top: 1.875rem;
+}
+
+.weather h1{
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.weather h2{
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.weather > .details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+  gap: 3rem;
+}
+.details > .col{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col > img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.humidity, .wind{
+  font-size: 28px;
+  margin-top: -6px;
+}
