@@ -12,9 +12,9 @@ A simple counter with localStorage functionality.
 - Prevents negative values
 
 
-### 2. [Weather App](WeaterApp)
+### 2. [Weather App](WeatherApp)
   A simple weather app
-  
+
 
 ## Technologies
 - HTML, CSS, JavaScript
